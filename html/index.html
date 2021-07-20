@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perez Academy</title>
+    <link rel="stylesheet" href="/html/contact.html">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/contact.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    
 </head>
 
 <body>
@@ -24,7 +27,7 @@
                 </h1>
                 <p class="hero__copy">Somos la mejor forma de educacion en toda la latinoamerica, mas de<span
                         class="hero__copy-span"> 1,000,000 de estudiantes</span> se han convertido en profesionales.</p>
-                <a href="#" class="hero__cta">Contactanos</a>
+                <a href="/html/contact.html" class="hero__cta">Contactanos</a>
             </div>
 
             <a href="#nav">
@@ -62,7 +65,7 @@
     </header>
     <nav class="nav" id="nav">
 
-        <a href="#" class="nav__logo">
+        <a href="/index.html" class="nav__logo">
             <img src="/img/logo 1.svg" alt="">Perez
         </a>
 
@@ -72,9 +75,27 @@
                 <li class="nav__item"><a href="#about">Acerca de</a></li>
                 <li class="nav__item"><a href="#cursos">Cursos</a></li>
                 <li class="nav__item"><a href="#reviews">Reviews</a></li>
-                <li class="nav__item nav__cta"><a href="#contact">Contacto</a></li>
+                <li class="nav__item nav__cta"><a href="/html/contact.html">Contacto</a></li>
             </ul>
         </div>
+
+        <a href="#navphone" class="nav__phone__a"><svg class="nav__phone__button" xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(235, 96, 40, 1);transform: ;msFilter:;"><path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path></svg></a>
+
+    </nav>
+
+    <nav class="nav__phone" id="navphone">
+
+        <a href="#" class="nav__exit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg></a>
+
+        <h1 class="nav__title">Menu</h1>
+
+        <ul class="nav__list2">
+            <li class="nav__item2"><a href="#home">Inicio</a></li>
+            <li class="nav__item2"><a href="#about">Acerca de</a></li>
+            <li class="nav__item2"><a href="#cursos">Cursos</a></li>
+            <li class="nav__item2"><a href="#reviews">Reviews</a></li>
+            <li class="nav__item2"><a href="/html/contact.html">Contacto</a></li>
+        </ul>
 
     </nav>
 
@@ -85,7 +106,7 @@
 
 
         <section class="about" id="about">
-            <a href="#contact" class="fixedcta"><img src="/img/phone.svg" alt=""></a>
+            <a href="/html/contact.html" class="fixedcta"><img src="/img/phone.svg" alt=""></a>
             <div class="about__about">
                 <h1 class="about__title">Acerca de <span class="about__title-span">nosotros.</span></h1>
                 <div class="about__section1">
@@ -149,64 +170,65 @@
             <div class="curso">
                 <div class="curso__card">
                     <img src="/img/python.jfif" alt="">
-                    <div class="curso__card__text">
+                    <div class="curso__card__text" id="python">
                         <h1 class="curso__card__title">Python</h1>
                         <p class="curso__card__info">Aprende Python desde 0 experiencia de programacion hasta un nivel
                             experto con este curso de Python.</p>
-                        <a href="#contact" class="curso__card__cta">Inscribirse</a>
+                        <a href="/html/contact.html" class="curso__card__cta">Inscribirse</a>
                     </div>
                 </div>
 
                 <div class="curso__card">
                     <img src="/img/investment.jpg" alt="">
-                    <div class="curso__card__text">
+                    <div class="curso__card__text" id="inversion">
                         <h1 class="curso__card__title2">Economia</h1>
                         <p class="curso__card__info2">Aprende las bases de tener una buena economia, como invertir, que
                             significan los distintos confusos terminos dentro de este mundo con este curso online para
                             princpiantes.</p>
-                        <a href="#contact" class="curso__card__cta">Inscribirse</a>
+                        <a href="/html/contact.html" class="curso__card__cta">Inscribirse</a>
                     </div>
                 </div>
 
                 <div class="curso__card">
                     <img src="/img/brading marketing.jpg" alt="">
-                    <div class="curso__card__text">
+                    <div class="curso__card__text" id="marketing">
                         <h1 class="curso__card__title3">Branding & Marketing</h1>
-                        <p class="curso__card__info2"> Con este curso de Branding y Marketing vas a saber el significado
+                        <p class="curso__card__info2 curso__card__infobranding"> Con este curso de Branding y Marketing vas a saber el significado
                             de cada forma de trabajo, la importancia que tiene en el mundo actual y como hacer las dos,
                             tanto de forma digital como de forma fisica.</p>
-                        <a href="#contact" class="curso__card__cta">Inscribirse</a>
+                        <a href="/html/contact.html" class="curso__card__cta">Inscribirse</a>
                     </div>
                 </div>
 
                 <div class="curso__card">
                     <img src="/img/webdevelopment.jpg" alt="">
-                    <div class="curso__card__text">
+                    <div class="curso__card__text" id="web">
                         <h1 class="curso__card__title3">Desarrollo Web</h1>
                         <p class="curso__card__info2"> Aprende HTML5, CSS y JS, junto a sus frameworks y conviertete en
                             un completo profesional del disenio web con este curso online.</p>
-                        <a href="#contact" class="curso__card__cta">Inscribirse</a>
+                        <a href="/html/contact.html" class="curso__card__cta">Inscribirse</a>
                     </div>
                 </div>
 
                 <div class="curso__card">
                     <img src="/img/video editing.jpg" alt="">
-                    <div class="curso__card__text">
+                    <div class="curso__card__text" id="video">
                         <h1 class="curso__card__title3">Edicion Audiovisual</h1>
                         <p class="curso__card__info2"> En este curso aprenderas como editar contenido audiovisual de
                             forma profesional, para todo tipo de ambitos.</p>
-                        <a href="#contact" class="curso__card__cta">Inscribirse</a>
+                        <a href="/html/contact.html" class="curso__card__cta">Inscribirse</a>
                     </div>
                 </div>
 
                 <div class="curso__card">
                     <img src="/img/graphic design.jpg" alt="">
-                    <div class="curso__card__text">
+                    
+                    <div class="curso__card__text" id="disenio">
                         <h1 class="curso__card__title3">Disenio Grafico</h1>
                         <p class="curso__card__info2"> Aprende a como hacer dise;os profesionales de todo tipo de cosas,
                             este curso profundiza tanto el dise;o digital como el 3D o el arte vectorial, tanto como el
                             arte tradicional digitalizada.</p>
-                        <a href="#contact" class="curso__card__cta">Inscribirse</a>
+                        <a href="/html/contact.html" class="curso__card__cta">Inscribirse</a>
                     </div>
                 </div>
             </div>
@@ -224,6 +246,13 @@
                             <div class="review__card__text">
                                 <h2 class="review__card__name">Alan Albide</h2>
                                 <h3 class="review__card__occupation">CEO en HVH & Inversor en Criptomonedas</h3>
+                                <div class="review__card__rating__text">
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                </div>
                             </div>
                         </div>
                         <div class="review__card__rating">
@@ -251,6 +280,13 @@
                             <div class="review__card__text">
                                 <h2 class="review__card__name">Alex Panchingo</h2>
                                 <h3 class="review__card__occupation">Desarrollador Web & Millonario</h3>
+                                <div class="review__card__rating__text">
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star-half' style='color:#eb6028'></i>
+                                </div>
                             </div>
                         </div>
                         <div class="review__card__rating">
@@ -277,6 +313,14 @@
                             <div class="review__card__text">
                                 <h2 class="review__card__name">Gordo Bondiola</h2>
                                 <h3 class="review__card__occupation">Duenio de Fiambreria "Empanada de Fuego"</h3>
+                                <div class="review__card__rating__text">
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+        
+                                </div>
                             </div>
                         </div>
                         <div class="review__card__rating">
@@ -305,6 +349,13 @@
                             <div class="review__card__text">
                                 <h2 class="review__card__name">Gabriela Bruzzesi</h2>
                                 <h3 class="review__card__occupation">Directora de Marketing en Google</h3>
+                                <div class="review__card__rating__text">
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bxs-star' style='color:#eb6028'></i>
+                                    <i class='bx bx-star' style='color:#eb6028'></i>
+                                </div>
                             </div>
                         </div>
                         <div class="review__card__rating">
@@ -356,7 +407,7 @@
                     <div class="registercta__text">
                         <h1 class="registercta__title">Inscribete ahora a nuestra academia para reforzar todos tus
                             conocimientos.</h1>
-                        <a href="#contact" class="registercta__cta">Contactanos</a>
+                        <a href="/html/contact.html" class="registercta__cta">Contactanos</a>
                     </div>
                 </div>
             </section>
@@ -372,11 +423,15 @@
             <p class="footer__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nesciunt quam
                 facere aliquid, totam dolores.</p>
             <div class="footer__logos">
-                <a href="https://www.youtube.com/channel/UC6_7jJbb3vqXrmU52jY5nbA" class="footer__links"><img
-                        src="/img/brandsfooter/bxl-youtube.svg" alt=""></a>
-                <a href="https://twitter.com/juangxrl" class="footer__links"><img
-                        src="/img/brandsfooter/bxl-twitter.svg" alt=""></a>
-                <a href="#" class="footer__links"><img src="/img/brandsfooter/bxl-instagram.svg" alt=""></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UC6_7jJbb3vqXrmU52jY5nbA" class="footer__links">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(235, 96, 40, 1);transform: ;msFilter:;"><path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"></path></svg></a>
+
+                
+                <a target="_blank" href="https://twitter.com/juangxrl" class="footer__links">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(235, 96, 40, 1);transform: ;msFilter:;"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg></a>
+
+                <a href="#" target="_blank" class="footer__links">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(235, 96, 40, 1);transform: ;msFilter:;"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg></a>
             </div>
             <h3 class="footer__copyright">Hecho por <span class="footer__copyright-span"> Juan Bautista Perez. </span>
             </h3>
